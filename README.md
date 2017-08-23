@@ -1250,6 +1250,10 @@ There is a `-L` option of `ssh-add` that lists public key parameters of all iden
 
 # Troubleshooting
 
+- If you are getting on SourceTree (macOS) `Permission denied (publickey)`, run it from Terminal with command:
+
+      $ /Applications/SourceTree.app/Contents/MacOS/SourceTree &
+
 - If you don't understand some option, read `man gpg`.
 
 - If you encounter problems connecting to YubiKey with GPG, simply try unplugging and re-inserting your YubiKey, and restarting the `gpg-agent` process.
